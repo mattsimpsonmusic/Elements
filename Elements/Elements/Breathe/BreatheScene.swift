@@ -1,9 +1,8 @@
 //
-//  SecondScene.swift
-//  IOS12SpriteKitScenesTutorial
+//  BreatheScene.swift
+//  Elements
 //
-//  Created by Arthur Knopper on 03/10/2018.
-//  Copyright © 2018 Arthur Knopper. All rights reserved.
+//  Created by Matthew Simpson on 15/03/2022.
 //
 
 import UIKit
