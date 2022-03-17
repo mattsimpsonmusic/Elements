@@ -24,6 +24,13 @@
 		E241888D27CFCAFA0034EF01 /* enso.png in Resources */ = {isa = PBXBuildFile; fileRef = E241888C27CFCAFA0034EF01 /* enso.png */; };
 		E241888F27CFCDE30034EF01 /* Smoke.sks in Resources */ = {isa = PBXBuildFile; fileRef = E241888E27CFCDE30034EF01 /* Smoke.sks */; };
 		E261E25F27E259F300980CC1 /* Squares.sks in Resources */ = {isa = PBXBuildFile; fileRef = E261E25D27E259F300980CC1 /* Squares.sks */; };
+		E262AF7927E37711005CA33D /* AudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = E262AF7827E37711005CA33D /* AudioKit */; };
+		E262AF7D27E378AA005CA33D /* SoundpipeAudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = E262AF7C27E378AA005CA33D /* SoundpipeAudioKit */; };
+		E262AF8727E3794E005CA33D /* rain.wav in Resources */ = {isa = PBXBuildFile; fileRef = E262AF8427E3794E005CA33D /* rain.wav */; };
+		E262AF8827E3794E005CA33D /* forest.png in Resources */ = {isa = PBXBuildFile; fileRef = E262AF8527E3794E005CA33D /* forest.png */; };
+		E262AF8927E3794E005CA33D /* Rain.sks in Resources */ = {isa = PBXBuildFile; fileRef = E262AF8627E3794E005CA33D /* Rain.sks */; };
+		E262AF9127E3807B005CA33D /* Dream.wav in Resources */ = {isa = PBXBuildFile; fileRef = E262AF9027E3807B005CA33D /* Dream.wav */; };
+		E262AF9327E38D58005CA33D /* Podcast Test.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E262AF9227E38D58005CA33D /* Podcast Test.mp3 */; };
 		E273D0BA27D67EB800B9BDBC /* trees.png in Resources */ = {isa = PBXBuildFile; fileRef = E273D0B727D67EB800B9BDBC /* trees.png */; };
 		E273D0BB27D67EB800B9BDBC /* cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = E273D0B827D67EB800B9BDBC /* cloud.png */; };
 		E273D0BC27D67EB800B9BDBC /* leaves.png in Resources */ = {isa = PBXBuildFile; fileRef = E273D0B927D67EB800B9BDBC /* leaves.png */; };
@@ -71,6 +78,11 @@
 		E241888C27CFCAFA0034EF01 /* enso.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enso.png; sourceTree = "<group>"; };
 		E241888E27CFCDE30034EF01 /* Smoke.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Smoke.sks; sourceTree = "<group>"; };
 		E261E25D27E259F300980CC1 /* Squares.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Squares.sks; sourceTree = "<group>"; };
+		E262AF8427E3794E005CA33D /* rain.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rain.wav; sourceTree = "<group>"; };
+		E262AF8527E3794E005CA33D /* forest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forest.png; sourceTree = "<group>"; };
+		E262AF8627E3794E005CA33D /* Rain.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Rain.sks; sourceTree = "<group>"; };
+		E262AF9027E3807B005CA33D /* Dream.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Dream.wav; sourceTree = "<group>"; };
+		E262AF9227E38D58005CA33D /* Podcast Test.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Podcast Test.mp3"; sourceTree = "<group>"; };
 		E273D0B727D67EB800B9BDBC /* trees.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trees.png; sourceTree = "<group>"; };
 		E273D0B827D67EB800B9BDBC /* cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud.png; sourceTree = "<group>"; };
 		E273D0B927D67EB800B9BDBC /* leaves.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leaves.png; sourceTree = "<group>"; };
@@ -85,6 +97,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E262AF7D27E378AA005CA33D /* SoundpipeAudioKit in Frameworks */,
+				E262AF7927E37711005CA33D /* AudioKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +152,9 @@
 				E2C9C43D27D21C9E000D11E1 /* Emmiters */,
 				E241886627CF90FB0034EF01 /* LaunchScreen.storyboard */,
 				E241886427CF90FB0034EF01 /* Assets.xcassets */,
+				E262AF9027E3807B005CA33D /* Dream.wav */,
+				E262AF8527E3794E005CA33D /* forest.png */,
+				E262AF8427E3794E005CA33D /* rain.wav */,
 			);
 			path = Elements;
 			sourceTree = "<group>";
@@ -173,6 +190,7 @@
 			children = (
 				E22AB32827D63C4E0074D15E /* FocusScene.sks */,
 				E22AB32927D63C4E0074D15E /* FocusScene.swift */,
+				E262AF9227E38D58005CA33D /* Podcast Test.mp3 */,
 			);
 			path = Focus;
 			sourceTree = "<group>";
@@ -206,6 +224,7 @@
 				E241888E27CFCDE30034EF01 /* Smoke.sks */,
 				E241885B27CF90FA0034EF01 /* Actions.sks */,
 				E241888A27CFC4E80034EF01 /* Fire.sks */,
+				E262AF8627E3794E005CA33D /* Rain.sks */,
 			);
 			path = Emmiters;
 			sourceTree = "<group>";
@@ -226,6 +245,10 @@
 			dependencies = (
 			);
 			name = Elements;
+			packageProductDependencies = (
+				E262AF7827E37711005CA33D /* AudioKit */,
+				E262AF7C27E378AA005CA33D /* SoundpipeAudioKit */,
+			);
 			productName = Elements;
 			productReference = E241885427CF90FA0034EF01 /* Elements.app */;
 			productType = "com.apple.product-type.application";
@@ -298,6 +321,10 @@
 				Base,
 			);
 			mainGroup = E241884B27CF90FA0034EF01;
+			packageReferences = (
+				E262AF7727E37711005CA33D /* XCRemoteSwiftPackageReference "AudioKit" */,
+				E262AF7B27E378AA005CA33D /* XCRemoteSwiftPackageReference "SoundpipeAudioKit" */,
+			);
 			productRefGroup = E241885527CF90FA0034EF01 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -316,12 +343,17 @@
 			files = (
 				E241886327CF90FA0034EF01 /* Main.storyboard in Resources */,
 				E273D0BC27D67EB800B9BDBC /* leaves.png in Resources */,
+				E262AF9127E3807B005CA33D /* Dream.wav in Resources */,
 				E2BA7F4B27E0A36D0025083E /* RestScene.sks in Resources */,
 				E273D0BA27D67EB800B9BDBC /* trees.png in Resources */,
 				E241885A27CF90FA0034EF01 /* GameScene.sks in Resources */,
 				E2BA7F4427E0A2550025083E /* BreatheScene.sks in Resources */,
+				E262AF8827E3794E005CA33D /* forest.png in Resources */,
+				E262AF8927E3794E005CA33D /* Rain.sks in Resources */,
 				E241886527CF90FB0034EF01 /* Assets.xcassets in Resources */,
 				E241888B27CFC4E80034EF01 /* Fire.sks in Resources */,
+				E262AF8727E3794E005CA33D /* rain.wav in Resources */,
+				E262AF9327E38D58005CA33D /* Podcast Test.mp3 in Resources */,
 				E261E25F27E259F300980CC1 /* Squares.sks in Resources */,
 				E273D0BB27D67EB800B9BDBC /* cloud.png in Resources */,
 				E22AB32A27D63C4E0074D15E /* FocusScene.sks in Resources */,
@@ -702,6 +734,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E262AF7727E37711005CA33D /* XCRemoteSwiftPackageReference "AudioKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/AudioKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		E262AF7B27E378AA005CA33D /* XCRemoteSwiftPackageReference "SoundpipeAudioKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/SoundpipeAudioKit.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E262AF7827E37711005CA33D /* AudioKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E262AF7727E37711005CA33D /* XCRemoteSwiftPackageReference "AudioKit" */;
+			productName = AudioKit;
+		};
+		E262AF7C27E378AA005CA33D /* SoundpipeAudioKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E262AF7B27E378AA005CA33D /* XCRemoteSwiftPackageReference "SoundpipeAudioKit" */;
+			productName = SoundpipeAudioKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E241884C27CF90FA0034EF01 /* Project object */;
 }
