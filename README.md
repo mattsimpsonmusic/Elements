@@ -4,9 +4,9 @@ Elements is an interactive iOS-based application designed to improve the overall
 
 The functionality of Elements is comprised of three main features:
 
-Breathe - An audio-visual experience designed for calm and relaxation.
-Focus - A gamified task management system designed for productivity.
-Reflect - An informal, simple mood-based self-assessment mode designed for emotional understanding.
+1. Breathe - An audio-visual experience designed for calm and relaxation.
+2. Focus - A gamified task management system designed for productivity.
+3. Reflect - An informal, simple mood-based self-assessment mode designed for emotional understanding.
 
 The current version of Elements is a fully developed prototype of the final product, which provides an impression of how each mode will operate in the final model.
 
